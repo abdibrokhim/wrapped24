@@ -109,9 +109,9 @@ export default function Home() {
             <h3>May</h3>
             <ul>
                 <li>Interviewed with EPAM Systems but got rejected. Created a bunch of tutorials, compiled them into a playlist, and uploaded them to YouTube. <sup><a href="#ref36" className="reference-link">36</a></sup></li>
-                <li>Wrote my first short story based on a true life story: “The Poor Eyesight.” <sup><a href="#ref37" className="reference-link">37</a></sup></li>
-                <li>Became interested in 30 papers shared by Ilya Sutskever with the tweet: “If you really learn all of these, you&apos;ll know 90% of what matters today.” <sup><a href="#ref38" className="reference-link">38</a></sup></li>
-                <li>Read the book <strong>"Meta Learning - How To Learn Deep Learning And Thrive In The Digital World"</strong> by Radek Osmulski and wrote my own short analysis. <sup><a href="#ref39" className="reference-link">39</a></sup></li>
+                <li>Wrote my first short story based on a true life story: &quot;The Poor Eyesight.&quot; <sup><a href="#ref37" className="reference-link">37</a></sup></li>
+                <li>Became interested in 30 papers shared by Ilya Sutskever with the tweet: &quot;If you really learn all of these, you&apos;ll know 90% of what matters today.&quot; <sup><a href="#ref38" className="reference-link">38</a></sup></li>
+                <li>Read the book <strong>&quot;Meta Learning - How To Learn Deep Learning And Thrive In The Digital World&quot;</strong> by Radek Osmulski and wrote my own short analysis. <sup><a href="#ref39" className="reference-link">39</a></sup></li>
                 <li>Created my first personal webpage, inspired by Greg Brockman&apos;s page. <sup><a href="#ref40" className="reference-link">40</a></sup></li>
                 <li>Developed an interest in the Rust programming language and built a ChatGPT Rust Desktop App. <sup><a href="#ref41" className="reference-link">41</a></sup></li>
                 <li>Decided against participating in Work & Travel and chose to focus on building projects instead.</li>
@@ -162,7 +162,7 @@ export default function Home() {
                 <li>Selected for the Huawei Seeds For The Future program; met Mohamed Madkour and other inspiring individuals, but we failed in the second round. <sup><a href="#ref58" className="reference-link">58</a></sup>, <sup><a href="#ref59" className="reference-link">59</a></sup></li>
                 <li>Rebuilt CoMedAI, introducing <strong>CoMed 2.0</strong> (powered by CNN and NLP models). <sup><a href="#ref9" className="reference-link">9</a></sup></li>
                 <li>Started my fourth year of studies at New Uzbekistan University. <sup><a href="#ref60" className="reference-link">60</a></sup></li>
-                <li>Began reading <strong>"Zero to One"</strong> by Peter Thiel. <sup><a href="#ref61" className="reference-link">61</a></sup></li>
+                <li>Began reading <strong>&quot;Zero to One&quot;</strong> by Peter Thiel. <sup><a href="#ref61" className="reference-link">61</a></sup></li>
             </ul>
             <p><em>P.S.: Throughout the month, I applied to various programs.</em></p>
         </section>
@@ -180,7 +180,7 @@ export default function Home() {
                 <li>Joined AI/ML API as a mentor. <sup><a href="#ref68" className="reference-link">68</a></sup></li>
                 <li>Listed all 42 of my applications on Patreon. <a href="#useful-links">here</a>, <sup><a href="#ref69" className="reference-link">69</a></sup></li>
                 <li>Started researching how to optimize AlphaFold using Quantum Gates. <sup><a href="#ref70" className="reference-link">70</a></sup></li>
-                <li>Accepted but couldn't attend the Hack the North hackathon in Canada. <a href="#useful-links">here</a></li>
+                <li>Accepted but couldn&apos;t attend the Hack the North hackathon in Canada. <a href="#useful-links">here</a></li>
                 <li>My first tweet received over 90K views. <sup><a href="#ref71" className="reference-link">71</a></sup></li>
             </ul>
             <p><em>P.S.: Throughout the month, I applied to various programs.</em></p>
@@ -212,7 +212,7 @@ export default function Home() {
                 <li>Stopped working on optimizing AlphaFold using Quantum Gates. It was too complex. <sup><a href="#ref70" className="reference-link">70</a></sup></li>
                 <li>Started researching: <strong>Code optimization for STM-32 f103/STM-32 F407 Discovery Time and Memory</strong> and <strong>ASCON: Lightweight Cryptography</strong>. <sup><a href="#ref76" className="reference-link">76</a></sup>, <sup><a href="#ref9" className="reference-link">9</a></sup></li>
                 <li>Applied to Y Combinator for the second time with my co-founder @Wei B Tan. Our startup: <strong>PaperAI 2.0</strong> - The Open Source Collaborative AI Research Platform. <sup><a href="#ref77" className="reference-link">77</a></sup></li>
-                <li>Started reading <strong>"The Pathless Path"</strong> by Paul Millerd. <a href="#useful-links">here</a></li>
+                <li>Started reading <strong>&quot;The Pathless Path&quot;</strong> by Paul Millerd. <a href="#useful-links">here</a></li>
                 <li>Received a second invitation for a Skype interview for the IES program in Berlin, Germany. <a href="#useful-links">here</a></li>
                 <li>Officially launched <strong>Open Community</strong>. <sup><a href="#ref46" className="reference-link">46</a></sup>, <sup><a href="#ref78" className="reference-link">78</a></sup></li>
                 <li>Released the world&apos;s first AI startup studio album: <strong>Open Community - I AM STARTUP</strong>. <sup><a href="#ref79" className="reference-link">79</a></sup></li>
@@ -236,7 +236,7 @@ export default function Home() {
             <h3>December</h3>
             <ul>
                 <li>Failed Y Combinator for the second time. <sup><a href="#ref88" className="reference-link">88</a></sup></li>
-                <li>Finished reading <strong>"The Pathless Path"</strong> by Paul Millerd. <sup><a href="#ref89" className="reference-link">89</a></sup></li>
+                <li>Finished reading <strong>&quot;The Pathless Path&quot;</strong> by Paul Millerd. <sup><a href="#ref89" className="reference-link">89</a></sup></li>
                 <li><strong>Open Community</strong> gained popularity online. Scammers created fake OC (Open Community) meme coins. One of my tweets caused a meme coin to spike from $5K to $3M in an hour, then to $4M minutes later. Almost lost all my reputation and Open Community&apos;s reputation. <sup><a href="#ref90" className="reference-link">90</a></sup></li>
                 <li>Believe my tutorials are the most interesting and best. <sup><a href="#ref91" className="reference-link">91</a></sup>, <sup><a href="#ref9" className="reference-link">9</a></sup>, <sup><a href="#ref6" className="reference-link">6</a></sup></li>
                 <li>Less than a month; Featured on Topmate&apos;s landing page. Scheduled to appear in Times Square in January 2025. Ranked in the top 1%. <sup><a href="#ref81" className="reference-link">81</a></sup></li>
@@ -308,8 +308,8 @@ export default function Home() {
                 <li id="ref35">[^35]: [Details about Stanford Code In Place Rejection]</li>
                 <li id="ref36">[^36]: [Details about EPAM Systems Course and Tutorials]</li>
                 <li id="ref37">[^37]: [Details about Short Story]</li>
-                <li id="ref38">[^38]: [Details about Ilya Sutskever's 30 Papers]</li>
-                <li id="ref39">[^39]: [Details about "Meta Learning" Book]</li>
+                <li id="ref38">[^38]: [Details about Ilya Sutskever&apos;s 30 Papers]</li>
+                <li id="ref39">[^39]: [Details about &quot;Meta Learning&quot; Book]</li>
                 <li id="ref40">[^40]: [Details about Personal Webpage]</li>
                 <li id="ref41">[^41]: [Details about Rust Programming and ChatGPT Rust App]</li>
                 <li id="ref42">[^42]: [Details about Y Combinator Rejection]</li>
@@ -331,7 +331,7 @@ export default function Home() {
                 <li id="ref58">[^58]: [Details about Huawei Seeds For The Future]</li>
                 <li id="ref59">[^59]: [More Details about Huawei Program]</li>
                 <li id="ref60">[^60]: [Details about Research Paper Publication]</li>
-                <li id="ref61">[^61]: [Details about "Zero to One" Book]</li>
+                <li id="ref61">[^61]: [Details about &quot;Zero to One&quot; Book]</li>
                 <li id="ref62">[^62]: [Details about IES Program Video Submission]</li>
                 <li id="ref63">[^63]: [Details about DKU 2024 Conference Presentation]</li>
                 <li id="ref64">[^64]: [More Details about DKU 2024 Conference]</li>
@@ -359,7 +359,7 @@ export default function Home() {
                 <li id="ref86">[^86]: [Details about Clerk Auth Newsletter Feature]</li>
                 <li id="ref87">[^87]: [Details about CodeNewbies Repost]</li>
                 <li id="ref88">[^88]: [Details about Second Y Combinator Failure]</li>
-                <li id="ref89">[^89]: [Details about Finishing "The Pathless Path" Book]</li>
+                <li id="ref89">[^89]: [Details about Finishing &quot;The Pathless Path&quot; Book]</li>
                 <li id="ref90">[^90]: [Details about Open Community Meme Coin Incident]</li>
                 <li id="ref91">[^91]: [Details about Tutorials Excellence]</li>
                 <li id="ref92">[^92]: [Details about Hackathon Participation]</li>

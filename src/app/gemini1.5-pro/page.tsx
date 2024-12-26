@@ -2,7 +2,7 @@ export default function Home() {
   return (
     <div className="">
 <header>
-        <h1>Ibrohim Abdivokhidov's Wrapped 2024</h1>
+        <h1>Ibrohim Abdivokhidov&apos;s Wrapped 2024</h1>
     </header>
 
     <main>
