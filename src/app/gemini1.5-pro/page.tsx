@@ -67,8 +67,8 @@ export default function Home() {
     <footer>
         <p>© 2025 Ibrohim Abdivokhidov</p>
     </footer>
-
-    <script src="script.js"></script> {/* <!-- Link to your JavaScript file (optional) --> */}
+{/* 71:5  Error: Synchronous scripts should not be used. See: https://nextjs.org/docs/messages/no-sync-scripts  @next/next/no-sync-scripts */}
+    {/* <script src="script.js"></script> <!-- Link to your JavaScript file (optional) --> */}
     </div>
   );
 }
