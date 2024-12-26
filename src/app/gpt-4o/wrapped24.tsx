@@ -1,9 +1,6 @@
 // wrapped_2024_website: Main codebase for Ibrohim Abdivokhidov Wrapped 2024
 
-// Import React and necessary libraries
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route, Routes, NavLink } from 'react-router-dom';
+import React, { useState } from 'react';
 import './styles.css'; // Import styles for the website
 
 // Components
@@ -18,35 +15,77 @@ import {Footer} from './components/footer';
 import { Contact } from './components/contact';
 
 export default function App() {
+  const [currentPage, setCurrentPage] = useState('home');
+
+  const renderPage = () => {
+    switch(currentPage) {
+      case 'home':
+        return <Hero />;
+      case 'year-in-review':
+        return <Timeline />;
+      case 'projects':
+        return <Projects />;
+      case 'tutorials':
+        return <Tutorials />;
+      case 'socials':
+        return <Socials />;
+      case 'contact':
+        return <Contact />;
+      default:
+        return <Hero />;
+    }
+  };
+
   return (
-    <Router>
-      <div className="app">
-        <header>
-          <nav className="navbar">
-            <NavLink to="/" className={({ isActive }) => isActive ? "active" : ""} end>Home</NavLink>
-            <NavLink to="/year-in-review" className={({ isActive }) => isActive ? "active" : ""}>Year in Review</NavLink>
-            <NavLink to="/projects" className={({ isActive }) => isActive ? "active" : ""}>Projects</NavLink>
-            <NavLink to="/tutorials" className={({ isActive }) => isActive ? "active" : ""}>Tutorials</NavLink>
-            <NavLink to="/socials" className={({ isActive }) => isActive ? "active" : ""}>Socials</NavLink>
-            <NavLink to="/contact" className={({ isActive }) => isActive ? "active" : ""}>Contact</NavLink>
-          </nav>
-        </header>
+    <div className="app">
+      <header>
+        <nav className="navbar">
+          <button 
+            onClick={() => setCurrentPage('home')}
+            className={currentPage === 'home' ? 'active' : ''}
+          >
+            Home
+          </button>
+          <button 
+            onClick={() => setCurrentPage('year-in-review')}
+            className={currentPage === 'year-in-review' ? 'active' : ''}
+          >
+            Year in Review
+          </button>
+          <button 
+            onClick={() => setCurrentPage('projects')}
+            className={currentPage === 'projects' ? 'active' : ''}
+          >
+            Projects
+          </button>
+          <button 
+            onClick={() => setCurrentPage('tutorials')}
+            className={currentPage === 'tutorials' ? 'active' : ''}
+          >
+            Tutorials
+          </button>
+          <button 
+            onClick={() => setCurrentPage('socials')}
+            className={currentPage === 'socials' ? 'active' : ''}
+          >
+            Socials
+          </button>
+          <button 
+            onClick={() => setCurrentPage('contact')}
+            className={currentPage === 'contact' ? 'active' : ''}
+          >
+            Contact
+          </button>
+        </nav>
+      </header>
 
-        <main>
-          <Routes>
-            <Route path="/" element={<Hero />} />
-            <Route path="/year-in-review" element={<Timeline />} />
-            <Route path="/projects" element={<Projects />} />
-            <Route path="/tutorials" element={<Tutorials />} />
-            <Route path="/socials" element={<Socials />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
-        </main>
+      <main>
+        {renderPage()}
+      </main>
 
-        <Stats />
-        <Reflection />
-        <Footer />
-      </div>
-    </Router>
+      <Stats />
+      <Reflection />
+      <Footer />
+    </div>
   );
 }
