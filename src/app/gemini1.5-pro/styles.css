@@ -1,0 +1,45 @@
+/* style.css */
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.month {
+    margin-bottom: 40px;
+}
+
+.month h2 {
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style-type: disc;  /* or square, circle, etc. */
+    padding-left: 20px; /* Indent list items */
+}
+
+a {
+    color: blue;
+    text-decoration: none; /* remove underlines */
+}
+
+a:hover {
+    text-decoration: underline; /* add underline on hover */
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  font-size: smaller;
+  color: #888;
+}
+
+/* Optional: Add more styling as needed */

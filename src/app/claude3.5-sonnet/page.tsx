@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Wrapped2024 from './wrapped24';
 
 export default function Home() {
   return (
