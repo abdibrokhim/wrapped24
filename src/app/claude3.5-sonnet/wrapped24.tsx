@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import { ChevronRight, ChevronLeft, Calendar, Trophy, Activity, Brain } from 'lucide-react';
 

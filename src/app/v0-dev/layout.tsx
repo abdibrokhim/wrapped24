@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -12,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "i build website with one shot prompt claude3.5-sonnet",
-  description: "i build website with one shot prompt claude3.5-sonnet",
+  title: "i build website with one shot prompt v0-dev",
+  description: "i build website with one shot prompt v0-dev",
 };
 
 export default function RootLayout({
