@@ -32,6 +32,14 @@ export default function Home() {
           <Link href="/v0-dev" className="p-4 border rounded hover:bg-gray-100 hover:text-black">
             v0
           </Link>
+
+          <Link href="/gpt-o1" className="p-4 border rounded hover:bg-gray-100 hover:text-black">
+            GPT o1
+          </Link>
+
+          <Link href="/wrapped24" className="p-4 border rounded hover:bg-gray-100 hover:text-black">
+            v0 new version
+          </Link>
         </div>
       </main>
       <Footer />
