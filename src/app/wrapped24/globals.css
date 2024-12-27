@@ -14,18 +14,19 @@
 body {
   background-color: var(--bg-a);
   color: var(--text-a);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 .custom-scrollbar::-webkit-scrollbar {
-  width: 8px;
+  display: none;
 }
 
-.custom-scrollbar::-webkit-scrollbar-track {
-  background: #1A1E23;
-}
-
-.custom-scrollbar::-webkit-scrollbar-thumb {
-  background-color: var(--violet);
-  border-radius: 20px;
-  border: 3px solid #1A1E23;
-}
