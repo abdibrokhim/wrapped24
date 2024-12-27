@@ -40,6 +40,10 @@ export default function Home() {
           <Link href="/wrapped24" className="p-4 border rounded hover:bg-gray-100 hover:text-black">
             v0 new version
           </Link>
+
+          <Link href="/test" className="p-4 border rounded hover:bg-gray-100 hover:text-black">
+            test (lmao)
+          </Link>
         </div>
       </main>
       <Footer />

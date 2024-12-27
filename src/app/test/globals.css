@@ -1,0 +1,66 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@keyframes rainbow {
+  0% { color: red; }
+  14% { color: orange; }
+  28% { color: yellow; }
+  42% { color: green; }
+  57% { color: blue; }
+  71% { color: indigo; }
+  85% { color: violet; }
+  100% { color: red; }
+}
+
+body {
+  cursor: wait;
+}
+
+a {
+  text-decoration: underline wavy;
+  animation: rainbow 5s linear infinite;
+}
+
+a:hover {
+  font-size: 1.5em;
+  transition: font-size 0.3s ease;
+}
+
+.font-comic-sans {
+  font-family: "Comic Sans MS", cursive;
+}
+
+.font-papyrus {
+  font-family: "Papyrus", fantasy;
+}
+
+.font-cursive {
+  font-family: cursive;
+}
+
+.font-fantasy {
+  font-family: fantasy;
+}
+
+.font-monospace {
+  font-family: monospace;
+}
+
+/* Add a marquee effect */
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.marquee {
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 20s linear infinite;
+}
+
